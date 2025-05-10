@@ -3,4 +3,4 @@ module(
     repo_name = "com_alexmirrington_rules_mypy",
 )
 
-bazel_dep(name = "rules_proto_grpc")
+bazel_dep(name = "rules_proto_grpc", version = "5.0.1")
