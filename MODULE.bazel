@@ -2,3 +2,5 @@ module(
     name = "rules_mypy",
     repo_name = "com_alexmirrington_rules_mypy",
 )
+
+bazel_dep(name = "rules_proto_grpc")
